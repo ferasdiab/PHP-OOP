@@ -38,8 +38,22 @@ echo "<br>";
 
 // print_r($adminOne->userName);
 
+class Fruit {
+    public $color;
+    public $price;
+
+    function setPrice ($newPrice) {
+        $this->price=$newPrice;
+    }
+    function getPrice() {
+        return $this->price;
+    }
+}
 
 
+class Apple  extends Fruit {
+    public $shape 
+}
 
 
 ?>
